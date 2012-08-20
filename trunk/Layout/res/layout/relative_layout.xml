@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+	<TextView 
+	    android:id="@+id/lblEmail"
+	    android:text="Email"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<EditText 
+	    android:id="@+id/txtEmail"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/lblEmail"
+	    />
+	
+	<Button 
+	    android:id="@+id/btnLogin"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Login"
+	    android:layout_below="@id/txtEmail"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginRight="20px"
+	    />
+	<Button 
+	    android:id="@+id/btnCancel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Cancel"
+	    android:layout_toRightOf="@id/btnLogin"
+        android:layout_alignTop="@id/btnLogin" 
+	    />
+	
+	<Button 
+	    android:id="@+id/btnRegister"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Register new Account"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    />
+</RelativeLayout>

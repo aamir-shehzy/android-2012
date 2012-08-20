@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#F6F6F6">
+    
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Row1"
+            />
+        
+    </TableRow>
+    
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/TextView04" android:text="Row 2 column 1"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView04" android:text="Row 2 column 2"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView04" android:text="Row 2 column 3"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+    </TableRow> 
+	    
+</TableLayout>
