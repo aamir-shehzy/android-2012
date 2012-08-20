@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button 
+        android:id="@+id/btnOne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show alert 1 button"
+        />
+    <Button 
+        android:id="@+id/btnTwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show alert 2 button"
+        />
+    <Button 
+        android:id="@+id/btnThree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show alert 3 button"
+        />
+
+</LinearLayout>
