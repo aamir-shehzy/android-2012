@@ -4,5 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_jsonparsing">JSONParsingActivity</string>
+    <string name="title_activity_json_parsing">JSonParsingActivity</string>
 
 </resources>
