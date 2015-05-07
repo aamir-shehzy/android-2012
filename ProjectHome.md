@@ -1,0 +1,1 @@
+Tat ca nhung sample tu lam = android.
